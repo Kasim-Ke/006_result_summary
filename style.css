@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(237, 235, 235, 0.498);
+  font-family: "Hanken Grotesk", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0;
+}
+
+.containers {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.frist {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 450px;
+  width: 300px;
+  border-radius: 30px;
+}
+.second {
+  background-color: white;
+  color: hsl(224, 30%, 27%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 450px;
+  width: 300px;
+  border-radius: 30px;
+}
+
+.Result-text {
+  margin: 0;
+  padding: 0;
+  color: hsl(241, 100%, 89%);
+  font-size: 20px;
+}
+.circle {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.main-num {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.main-s-num {
+  margin: 0;
+  padding: 0;
+  color: hsl(241, 100%, 89%);
+}
+
+.great {
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+.text {
+  padding-top: 20px;
+  color: hsl(241, 100%, 89%);
+}
+
+.summary {
+  font-size: 20px;
+  margin-right: 150px;
+  margin-top: 45px;
+}
+
+.Reaction {
+  background-color: hsla(0, 97%, 86%, 0.15);
+  display: flex;
+  margin: 5px;
+  border-radius: 10px;
+  height: 50px;
+  width: 250px;
+}
+
+.Memory {
+  background-color: hsla(54, 90%, 64%, 0.1);
+  display: flex;
+  margin: 5px;
+  border-radius: 10px;
+  height: 50px;
+  width: 250px;
+}
+
+.Verbal {
+  background-color: hsla(166, 62%, 64%, 0.1);
+  display: flex;
+  margin: 5px;
+  border-radius: 10px;
+  height: 50px;
+  width: 250px;
+}
+
+.Visual {
+  background-color: hsla(234, 85%, 45%, 0.1);
+  display: flex;
+  margin: 5px;
+  border-radius: 10px;
+  height: 50px;
+  width: 250px;
+}
+
+.reactio {
+  color: hsl(0, 100%, 67%);
+  padding-left: 10px;
+  padding-right: 70px;
+}
+
+.Memor {
+  color: hsl(39, 100%, 56%);
+  padding-left: 10px;
+  padding-right: 80px;
+}
+
+.Verba {
+  color: hsl(166, 100%, 37%);
+  padding-left: 10px;
+  padding-right: 90px;
+}
+
+.Visua {
+  color: hsl(234, 85%, 45%);
+  padding-left: 10px;
+  padding-right: 90px;
+}
+
+.num {
+  color: hsl(241, 100%, 89%);
+}
+
+.icon {
+  padding-left: 10px;
+}
+
+.bt {
+  padding-top: 30px;
+  margin-top: 30px;
+}
+.btn {
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+  height: 45px;
+  width: 250px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: hsl(241, 100%, 89%);
+  color: hsl(224, 30%, 27%);
+  border: none;
+}
